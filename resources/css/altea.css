@@ -1,0 +1,80 @@
+.altea-foto-city {
+    background: url("../images/city-altea-spain.jpg");
+}
+.img-bg-altea {
+    width: 100%;
+    height: 40rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.beige-bg {
+    background-color: #F5EBE1;
+    border: 1px solid lightgrey;
+    height: 45rem;
+    text-align: center;
+}
+.altea-text-one {
+    margin: 8rem auto;
+}
+.foto-wrap {
+    height: 40rem;
+}
+.beige-bg h2 {
+   color:#144071;
+}
+.handwritten-text {
+    font-family: Angelique; 
+    color:#144071;
+    font-size: 5rem;
+}
+.text-refugio {
+     margin-left: 10rem;
+     margin-top: .5rem;
+     font-size: 1.1rem;
+}
+#first-letter {
+    position: relative;
+    left: 7.5rem;
+    top: 4.6rem;
+}
+.bg-grey {
+    background-color: #F8F8F8;
+    padding: 2rem;
+}
+
+.altea-boats {
+    background: url(../images/altea_barcos.jpg);
+    height: auto;
+    margin-left: 4rem;
+}
+.text-boats {
+    margin-left: 6rem;
+}
+.line-grey {
+    border-left: 1px solid lightgrey;
+    height: 8rem;
+    width: 1px;
+    margin: 0 auto;
+    position: relative;
+    top: 4rem;
+}
+#piratas {
+    margin-top: 4rem;
+    padding-bottom: 4rem;
+}
+.text-pirates {
+    margin-left: 4rem;
+    padding: 2rem;
+}
+.altea-foto-beach {
+    background: url(../images/altea-about.jpg);
+    margin-top: 6rem;
+    height: 20rem;
+
+}
+ .altea-boats, .altea-foto-beach  {
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+ }
