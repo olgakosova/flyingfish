@@ -508,16 +508,12 @@ and (max-width: 576px) {
 @media only screen 
 and (max-width: 450px) {
     #name, #mail, #msg {
-        width: 15rem;
+        width: 10rem;
     }
     #name, #mail {
         height: 2rem;
     }
-    .border-white {
-        width: 59vh;
-        position: relative;
-        left: -5rem !important;
-    }
+
     .footer {
         margin-top: 5rem;
     }
