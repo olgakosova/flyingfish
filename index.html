@@ -67,14 +67,14 @@
     <main>
     <section>
         <article class="container-fluid blue-bg" id="blue-section">
-            <div class="carousel container">
-                <div class="cont sunset-altea"></div>
-                <div class="cont fish-silver"></div>
-                <div class="cont sunset-shadow"></div>
-                <div class="cont fish-orange"></div>
+            <div class="carousel col-md-12 col-lg-10 container">
+               <img src="./resources/images/sunset_altea.jpg" alt="">
+                <img src="./resources/images/fish_one.jpg" alt="">
+                <img src="./resources/images/sunset_shadow.jpg" alt="">
+               <img src="./resources/images/foto_pez.jpg" alt="">
             </div>
             <div class="line"></div>
-            <div class="quotes col-lg-5">
+            <div class="quotes col-sm-8 col-md-7 col-lg-5">
                 <p class="quote"><span class="orange">"</span>I should not have been a fisherman, he thought. 
                     But that was the thing that I was born for <span class="orange">"</span></p>
                     <p class="handwritten" id="heminguay"> Ernest Heminguay</p>
@@ -93,7 +93,7 @@
                     Desde un paseo turístico a 
                     diseñar tu propia aventura marítima.</p>
                     <div></div>
-                    <a class="nav-link anim-line" href="services.html">LEER MÁS</a>
+                    <a class="nav-link anim-line" id="btn-adventure" href="services.html#adventure">PRECIOS</a>
                 </div>
                 <div class="col-md-4 col-lg-3 services">
                     <div class="img-bg" id="icon-fish"></div>
@@ -103,14 +103,14 @@
                         deportiva para principiantes
                          y expertos.</p>
                     <div></div>
-                    <a class="nav-link anim-line" href="services.html">LEER MÁS</a>
+                    <a class="nav-link anim-line" id="btn-fishing" href="services.html#fishing">PRECIOS</a>
                 </div>
         </div>
     </section>
     <section>
-        <div class="contact-form container translate-middle">
-            <div class="border-white col-lg-8">
-            <div class="container-white col-lg-10">
+        <div class="contact-form translate-middle">
+            <div class="border-white">
+            <div class="" id="container-white">
                 <h2 class="gris">CONTACTO</h2>
                 <form action="index.php" method="GET" id="contactForm">
 
@@ -136,7 +136,7 @@
     </section>
 </main>
     <footer class="footer container-fluid beige blue-bg">
-        <div class="container">
+        <div class="container d-sm-flex d-flex align-items-center flex-lg-row justify-content-lg-between flex-column">
             <div id="soc-media">
                 <div class="row">
                     <p>¡Síguenos en nuestras redes sociales!</p>
@@ -151,9 +151,11 @@
                 <p>Flying Fish Tours</p>
                 <p>fishing and adventure</p>
             </div>
-            <div class="row copyright-footer">
-                <p>© 2021 Copyright:</p> 
-                <a class="anim-line nav-link" href="https://www.cleverhypelab.com">CleverHypeLab</a> 
+        </div>
+        <div class="d-flex ml-0 ml-lg-5 justify-content-lg-between justify-content-center copyright-footer">
+            <div class="row item">
+            <p>© 2021 Copyright:</p> 
+            <a class="anim-line nav-link" href="https://www.cleverhypelab.com">CleverHypeLab</a> 
             </div>
         </div>
     </footer>
@@ -163,6 +165,7 @@
 <script type="text/javascript" src="resources/slick/slick.min.js"></script>
 <script type="text/javascript" src="resources/js/main.js"></script>
 <script type="text/javascript" src="resources/js/app.js"></script> 
+<script src="resources/js/services.js"></script>
     </body>
 </html>
 

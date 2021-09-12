@@ -42,12 +42,19 @@
     margin-bottom: 4rem;
     margin-left: 20rem !important;
 }
-.btn {
+button {
     font-family: Birch;
     font-size: 2.5rem;
     color: #144071;
     border: rgba(20,64,113,0.5) 1px solid; 
+    border-radius: 2%;
 }
+
+button:hover, button:active, button:focus, button:visited {
+    background-color:  #144071 !important;
+    color: white !important;
+}
+
 
 .menu-services {
     transform: rotate(90deg);

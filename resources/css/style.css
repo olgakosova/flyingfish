@@ -167,28 +167,11 @@ h4 {
     background-image: url(../images/watercolor-texture-background.jpg);
     background-repeat: no-repeat;
 }
-.cont {
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: 20px solid white;
-    height: 30rem;
+
+img {
+    object-fit: contain;
 }
-.sunset-altea {
-    background: url(../images/sunset_altea.jpg);
-    background-position: left;
-}
-.fish-silver {
-    background: url(../images/fish_one.jpg);
-    background-position: top;
-}
-.sunset-shadow {
-    background: url(../images/sunset_shadow.jpg);
-    background-position: bottom;
-}
-.fish-orange {
-    background: url(../images/foto_pez.jpg);
-    background-position: bottom;
-}
+
 /*Quote*/
 
 .line {
@@ -213,7 +196,9 @@ h4 {
     left: 2rem;
     padding-bottom: 5rem;
 }
-
+.item {
+    margin-left: 1rem !important;
+}
 
 /*Service Section*/
 
@@ -245,13 +230,13 @@ h4 {
     margin-top: 10%;
 }
 
-.container-white {
+#container-white {
     background-color: rgba(255, 255, 255, .7);
     text-align: center;
     margin: 2rem auto;
     
 }
-.container-white h2 {
+#container-white h2 {
     padding-top: 2rem;
 }
 
@@ -292,6 +277,7 @@ form {
     outline: none;
     background: none;
 }
+/*Footer*/
 .logo-footer {
     line-height: 0.8;
 }
@@ -305,7 +291,8 @@ form {
     color: #F5EBE1;  
 }
 #soc-media {
-  float: right;
+ position: relative;
+ right: 0 !important;
 }
 #logo-footer p:nth-child(1) {
 font-family: Birch;
@@ -474,5 +461,87 @@ font-size: 1.5rem;
     }
     #blue-section {
         margin-top: 4rem !important;
+    }
+}
+@media only screen 
+and (max-width: 576px) {
+    #heminguay {
+        font-size: 4rem;
+    }
+    .item {
+        margin-left: 0 !important;
+    }
+    .quote {
+        font-size: 1.8rem;
+    }
+    .cont {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 15rem;
+    }
+    .border-white {
+        margin: 0 !important;
+        width: 100%;
+    }
+    #heminguay {
+        top: -2rem;
+        left: 0;
+    }
+    .quote {
+        font-size: 1.5rem;
+    }
+    .social-link {
+        width: 1.2rem;
+        height: 1.2rem;
+        margin: 2rem 2rem;
+    }
+    #logo-footer {
+        position: relative;
+        top: 2rem;
+    }
+    .copyright-footer {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+}
+@media only screen 
+and (max-width: 450px) {
+    #name, #mail, #msg {
+        width: 15rem;
+    }
+    #name, #mail {
+        height: 2rem;
+    }
+    .border-white {
+        width: 59vh;
+        position: relative;
+        left: -5rem !important;
+    }
+    .footer {
+        margin-top: 5rem;
+    }
+    .social-link {
+        width: 1.2rem;
+        height: 1.2rem;
+        margin: 2rem 2rem;
+    }
+    #logo-footer {
+        position: relative;
+        top: 2rem;
+    }
+    .copyright-footer {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    #watercolor-service, .contact-form {
+        margin-top: 1.5rem !important;
+        overflow-x: hidden;
+    }
+    #watercolor-service {
+        margin-bottom: 0 !important;
     }
 }
