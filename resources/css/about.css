@@ -1,0 +1,177 @@
+body {
+    overflow-x: hidden;
+}
+.text-fish {
+    height: fit-content;
+    padding: 4rem 8rem 10rem 4rem;
+    left: 0 !important;
+    position: relative;
+}
+.second-text {
+    display: flex;
+    justify-content: center;
+}
+.our-story {
+    display: flex;
+    color: white;
+    border-top: 1px solid #144071;
+    margin-top: 3rem;
+}
+.img-stories {
+    flex-direction: column;
+}
+#img-fish {
+    background: url(../images/foto_atun.jpg);
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    top: 10rem;
+    left: -15rem;
+    height: 11rem;
+    width: 38rem;
+    position: relative;
+    z-index: 1;
+}
+.wave-pattern {
+    background: url(../images/rectangle_pattern.jpg);
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 25rem;
+    height: 25rem;
+    opacity: .3;
+    z-index: -3;
+    position: relative;
+    left: -15rem;
+}
+#story-handwritten {
+    float: right;
+    width: 100%;
+}
+#story {
+    position: relative;
+    left: 25rem;
+    font-size: 4rem;
+    line-height: .6;
+    height: fit-content;
+    width: max-content;
+    font-family: Angelique; 
+}
+.item-flex {
+    padding-left: 0 !important;
+}
+#img-fishing {
+    background: url(../images/fishing_altea.jpg);
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    height: 40rem;
+}
+.blue {
+    text-align: center;
+}
+#first-letter {
+    position: relative;
+    top: 5rem;
+    right: 3rem;
+}
+.handwritten-text {
+    font-family: Angelique; 
+    color:#144071;
+    font-size: 5rem;
+}
+.handwritten {
+    font-size: 5rem;
+}
+.line-grey, .line-blue {
+    border-left: 1px solid #144071;;
+    height: 5rem;
+    width: 1px;
+}
+.line-grey {
+    margin: 4rem auto ;
+}
+#quote-tour {
+    padding: 5rem;
+    margin: 0 auto;
+}
+#quote-tour p {
+    color: white;
+    font-family: Birch;
+    font-size: 2rem;
+    text-align: center;
+}
+.footer {
+    margin-top: 3rem !important;
+}
+@media screen and (max-width: 1100px) {
+    #img-fish {
+        width: 35rem;
+        height: 10rem;
+    }
+    #story {
+        position: relative;
+        left: 18rem;
+        font-size: 4rem;
+        line-height: .6;
+        font-family: Angelique; 
+    }
+}
+@media screen and (max-width: 991px) {
+    .our-story {
+        display: flex;
+        color: white;
+        border-top: none;
+        flex-flow: column wrap;
+    }
+    #img-fish {
+        top: 0;
+        left: 3rem;
+        position: relative;
+    }
+    #story {
+        display: none;
+    }
+    .wave-pattern {
+        width: 25rem;
+        height: 25rem;
+        opacity: .3;
+        z-index: -3;
+        position: absolute;
+        left: 5rem;
+        top: 45rem;
+    }
+}
+@media screen and (max-width: 769px) {
+    .wave-pattern {
+        top: 23rem;
+        left: 0rem;
+    }
+    #img-fish {
+        width: 32rem;
+        height: 8rem;
+        left: 1rem;
+    }
+    .line-grey {
+        display: none;
+    }
+    .second-text {
+        margin-top: 10rem;
+    }
+    .text-fish {
+        height: fit-content;
+        padding: 4rem 2rem 4rem 2rem;
+    }
+    .d-fishing {
+        display: flex;
+        flex-direction: column;
+    }
+    #first-letter {
+        position: absolute;
+        top: -3.5rem;
+        right: 2rem;
+    }
+    #quote-tour {
+        padding: 1rem;
+    }
+}

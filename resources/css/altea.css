@@ -78,3 +78,50 @@
     background-repeat: no-repeat !important;
     background-size: contain !important;
  }
+
+ @media screen and (max-width: 769px) {
+    .altea-foto-city {
+        z-index: -5;
+        position: relative;
+    }
+    .altea-text-one {
+        margin: 5rem auto 0 auto;
+    }
+    .beige-bg {
+        height: fit-content;
+    }
+    .text-refugio {
+        margin: 2rem auto;
+    }
+    #first-letter {
+        width: fit-content;
+        left: 3rem;
+        top: 5.4rem;
+    }
+    .altea-boats {
+        background: url(../images/altea_barcos.jpg);
+        height: 20rem;
+        margin: 0;
+        padding: 0;
+        background-size: contain;
+    }
+    .altea-foto-beach {
+        margin-top: 0;
+    }
+    .text-boats, .text-pirates {
+        margin-left: 0;
+    }
+ }
+ @media screen and (max-width: 575px) {
+    #first-letter {
+        left: -1.8rem;
+        top: 6rem;
+    }
+    .text-refugio{
+        margin-top: 5rem;
+    }
+    .handwritten-text {
+        line-height: .5;
+        margin-bottom: .8rem;
+    }
+ }

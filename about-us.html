@@ -13,12 +13,23 @@
         <!--Fonts-->
         <link rel="stylesheet" href="https://use.typekit.net/zpz7xgi.css">
         <!--Javascript-->
+
 </head>
 
     <body>
         <!--Navigation-->
         <header>
-            <nav class="navbar navbar-expand-lg nav-head">
+            <nav class="navbar-mobile ">
+                <div class="hamburger">
+                    <div class="line-burg"></div>
+                    <div class="line-burg"></div>
+                    <div class="line-burg"></div>
+                </div>
+                <div class="mobile-logo">
+                    <img src="resources/images/fish.png" alt="">
+                    <h1>Flying Fish Tour</h1>
+                </div>
+                <div class="mobile-menu navbar navbar-expand-lg nav-head">
                 <div class="lines">
                     <ul class="navbar-nav" >
                         <a class="nav-link" href="altea.html">ALTEA</a>
@@ -36,19 +47,20 @@
                <a href="index.html"><div class="img-bg img" id="logo"></div></a>
                <div class="line-menu"></div> 
     
-                <div class="lines" id="second-menu-block">
-                    <ul class="navbar-nav">
-                        <a class="nav-link" href="services.html">SERVICIOS</a>
-                        <a class="nav-link" href="contact.html">CONTACTO</a>
-                    </ul>
+            <div class="lines" id="second-menu-block">
+                <ul class="navbar-nav">
+                    <a class="nav-link" href="services.html">SERVICIOS</a>
+                    <a class="nav-link" href="contact.html">CONTACTO</a>
+                </ul>
                 <div class="line-bottom line-bottom-right"></div>
-                    <ul class="navbar-nav social-menu">
-                        <a href="#" class="nav-link img-bg social-link" id="fb-header"></a>
-                        <a href="#" class="nav-link img-bg social-link" id="insta-header"></a>
-                        <a href="#" class="nav-link img-bg social-link" id="wa-header"></a>
-                    </ul>
-                </div>       
-            </nav>  
+                <ul class="navbar-nav social-menu">
+                    <a href="#" class="nav-link img-bg social-link" id="fb-header"></a>
+                    <a href="#" class="nav-link img-bg social-link" id="insta-header"></a>
+                    <a href="#" class="nav-link img-bg social-link" id="wa-header"></a>
+                </ul>
+            </div>  
+        </div>     
+    </nav>  
         </header>
 
             <main>
@@ -72,9 +84,9 @@
                                 de veraneo.</p>
                         </div>
                         <div id="story-handwritten">
-                            <p class="handwritten blue">nuestra historia</p>
+                            <p class="handwritten blue" id="story">nuestra historia</p>
                         </div>
-                        <div class="col-lg-7" id="img-fish"></div>
+                        <div class="col-md-7 col-lg-8" id="img-fish"></div>
                         <div clasS="wave-pattern"></div>
                     </article>
                 </section>
@@ -82,17 +94,18 @@
 
             <!--Our Story-P2-->
                 <div class="line-grey"></div>
-                <section class="container">
+                <section class="container d-flex justify-content-center">
                     <article>
                     
                     <h2 class="blue forever">DESDE SIEMPRE Y PARA SIEMPRE</h2>
     
-                    <div class="row">
-                        <div id="img-fishing" class="col-lg-5"></div>
-                        <div class="text-forever col-lg-5">
+                    <div class="d-fishing">
+                        <div id="img-fishing" class="col-sm-8 col-md-6 col-lg-5"></div>
+                        <div class="text-forever col-sm-12 col-md-6 col-lg-5">
                             <div id="first-letter" class="col-lg-2">
                                 <p class="handwritten-text col-lg-5">C</p>
                             </div>
+
                             <p>&nbsp; &nbsp; uando tenía dos meses, ya estaba navegando
                                 frente a la costa alteana. Además, siguiendo la
                                 tradición de mi familia, la pasión por la pesca me
@@ -115,13 +128,13 @@
                             Altea. Un amor que va a más con el tiempo”.
                             </p>
                             <p class="handwritten right blue">Millan Garcia</p>
-                        </div>
+                        
                     </div>
                     </article>
                 </section>
 
                 <!--Quote-->
-                <div class="line-blue"></div>
+                <div class="line-grey"></div>
                     <section class="container-fluid blue-bg">
                         <div class="col-lg-7" id="quote-tour">
                             <p>“Tras un proceso de investigación y vivencias con pescadores expertos, 
@@ -132,13 +145,37 @@
                 </section>
             </main>
 
-            <footer class="footer container-fluid blue">
-                <div class="container">
+   <!-- <footer class="footer container-fluid beige blue-bg">
+        <div class="container d-sm-flex d-flex align-items-center flex-lg-row justify-content-lg-between flex-column">
+            <div id="soc-media">
+                <div class="row">
+                    <p>¡Síguenos en nuestras redes sociales!</p>
+                </div> 
+                <div class="social-media-links">
+                    <a href="#" class="nav-link img-bg social-link" id="fb-footer"></a>
+                    <a href="#" class="nav-link img-bg social-link" id="insta-footer"></a>
+                    <a href="#" class="nav-link img-bg social-link" id="wa-footer"></a>
+                </div>
+            </div>
+            <div id="logo-footer">
+                <p>Flying Fish Tours</p>
+                <p>fishing and adventure</p>
+            </div>
+        </div>
+        <div class="d-flex ml-0 ml-md-0 ml-lg-5 justify-content-lg-between justify-content-center copyright-footer">
+            <div class="row item">
+            <p>© 2021 Copyright:</p> 
+            <a class="anim-line nav-link" href="https://www.cleverhypelab.com">CleverHypeLab</a> 
+            </div>
+        </div>
+    </footer>-->
+          <footer class="footer container-fluid blue">
+                <div class="container d-sm-flex d-flex align-items-center flex-lg-row justify-content-lg-between flex-column">
                     <div id="soc-media">
                         <div class="row">
-                            <p>¡Síguenos en nuestras <br> redes sociales!</p>
+                            <p>¡Síguenos en nuestras redes sociales!</p>
                         </div> 
-                        <div class="row social-footer-menu">
+                        <div class="social-media-links">
                             <a href="#" class="nav-link img-bg social-link" id="fb-header"></a>
                             <a href="#" class="nav-link img-bg social-link" id="insta-header"></a>
                             <a href="#" class="nav-link img-bg social-link" id="wa-header"></a>
@@ -148,11 +185,17 @@
                         <p>Flying Fish Tours</p>
                         <p>fishing and adventure</p>
                     </div>
-                    <div class="row copyright-footer">
+                </div>
+                    <div class="d-flex ml-0 ml-lg-5 justify-content-lg-between justify-content-center copyright-footer">
+                    <div class="row item copyright-footer">
                         <p>© 2021 Copyright:</p> 
                         <a class="anim-line nav-link" href="https://www.cleverhypelab.com">CleverHypeLab</a> 
                     </div>
-                </div>
+                    </div>
+                
              </footer>
+             <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+             crossorigin="anonymous"></script>
+                 <script type="text/javascript" src="resources/js/app.js"></script> 
     </body>
 </html>

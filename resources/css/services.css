@@ -10,9 +10,7 @@
     background: url("../images/barracuda.png");
     height: 10rem;
 }
-.img-light {
-    background: url();
-}
+
 .img-bigame {
     background: url("/images/");
 }
@@ -185,4 +183,28 @@ strong {
             transform: translateZ(0);
     opacity: 1;
   }
+}
+@media only screen and (max-width: 991px) {
+    .img-services {
+        margin-left: 0 !important;
+        margin-bottom: 7rem;
+    }
+    .content-section {
+        margin-top: 4rem;
+    }
+    .your-idea {
+        margin-left: 0;
+    }
+    #foto-anchor {
+        left: 0;
+        height: 10rem;
+    }
+    .service-title h4 {
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
 }

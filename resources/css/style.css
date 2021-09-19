@@ -40,6 +40,9 @@ h4 {
     color:  #144071;
     transition: color 0.6s ease 0s;
 }
+#seashell {
+    cursor: pointer;
+}
 
 .link-special {
     width: 3rem;
@@ -64,10 +67,18 @@ h4 {
 #logo {
     background-image: url("../images/logo_flying_fish_tours.jpg")
 }
+.social-media-links {
+    display: inline-flex;
+}
 .social-link {
     width: 1rem;
     height: 1rem;
     margin: .7rem 1rem;
+
+}
+.d-fishing {
+    display: inline-flex;
+    justify-content: space-around;
 }
 
 .social-menu {
@@ -390,6 +401,18 @@ font-size: 1.5rem;
     src: url("../fonts/BirchStd.otf"); 
 	font-weight: bold;
 }
+.hide-it {
+    overflow-y: hidden;
+}
+
+@media only screen 
+and (min-width: 768px) and (max-width: 993px) {
+    .social-link {
+        width: 1.2rem;
+        height: 1.2rem;
+        margin: 2rem 2rem;
+    }
+}
 @media screen and (max-width: 768px) {
     .line-burg {
         width: 30px;
@@ -397,6 +420,11 @@ font-size: 1.5rem;
         background: #ffffff;
         margin: 5px;
       }
+      .social-link {
+        width: 1.2rem;
+        height: 1.2rem;
+        margin: 2rem 2rem;
+    }
 .hamburger{
     padding-top: .5rem;
     padding-left: .5rem;
@@ -413,6 +441,14 @@ font-size: 1.5rem;
         top: 0;
         border-bottom: orange 1px solid;
     }
+    #lang-menu {
+        display: inline-flex;
+        flex-direction: row;
+        border: 1px solid #F5EBE1;  
+        color: #144071;
+        margin: 0 auto !important;
+    }
+   
     .mobile-logo {
       display: inline-flex;
       position: absolute; 
@@ -427,6 +463,12 @@ font-size: 1.5rem;
         font-size: 1.5rem !important;
         margin-top: 1rem;
     }
+    .line-menu {
+        display: none;
+    }
+    .social-menu {
+        display: none;
+    }
   
     .mobile-menu {
         background: #144071;
@@ -434,10 +476,10 @@ font-size: 1.5rem;
         position: fixed;
         height: 100%;
         width: 100%;
-        padding-top: 3rem;
-        top: 0;
+        padding-top: 0;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        flex-direction: column-reverse;
         text-align: center;
         clip-path: circle(3rem at 90% -20%);
         -webkit-clip-path: circle(3rem at 90% -20%);
@@ -449,19 +491,23 @@ font-size: 1.5rem;
         -webkit-clip-path: circle(1000px at 90% -10%);
         pointer-events: all;
       }
-
-    #logo, .seamusic {
+      .line-bottom {
+          display: none;
+      }
+    .logo-link, .seamusic {
         display: none;
     }
-    .lang-menu {
-        display: none;
-    }
+   
     .navbar-nav a {
-        color: white !important;
+        color: #F5EBE1 !important;
     }
     #blue-section {
         margin-top: 4rem !important;
     }
+    .item {
+        margin: 0 !important;
+    }
+   
 }
 @media only screen 
 and (max-width: 576px) {
@@ -491,11 +537,6 @@ and (max-width: 576px) {
     .quote {
         font-size: 1.5rem;
     }
-    .social-link {
-        width: 1.2rem;
-        height: 1.2rem;
-        margin: 2rem 2rem;
-    }
     #logo-footer {
         position: relative;
         top: 2rem;
@@ -504,14 +545,21 @@ and (max-width: 576px) {
         margin-top: 0 !important;
         padding-top: 0 !important;
     }
+    .contact-form {
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+    .footer {
+        margin-top: 2rem;
+    }
 }
 @media only screen 
 and (max-width: 450px) {
     #name, #mail, #msg {
-        width: 10rem;
+        width: 18rem;
     }
     #name, #mail {
-        height: 2rem;
+        height: 3rem;
     }
 
     .footer {
