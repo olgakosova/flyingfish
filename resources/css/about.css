@@ -148,7 +148,7 @@ body {
         left: 0rem;
     }
     #img-fish {
-        width: 24rem;
+        max-width: 24rem;
         height:6rem;
         left: 1rem;
     }
@@ -173,5 +173,11 @@ body {
     }
     #quote-tour {
         padding: 1rem;
+    }
+}
+@media screen and (max-width: 600px) { 
+    #img-fish {
+        height:8rem;
+        left: 4rem;
     }
 }

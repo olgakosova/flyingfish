@@ -207,7 +207,11 @@ body{
     }
 }
 @media only screen and (max-width: 768px) {
-    body {
-        overflow-x: hidden;
+   
+    .service-title,  .service-text {
+        margin-left: 0;
+    }
+    .service-trip-list, .service-trip {
+        margin-left: 0 !important;
     }
 }
