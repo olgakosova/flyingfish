@@ -125,6 +125,9 @@ strong {
 .high {
     margin-top: 4rem;
 }
+body{
+    overflow-x: hidden;
+}
 .hide-section {
     display: none;
 }

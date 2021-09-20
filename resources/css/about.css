@@ -1,5 +1,5 @@
 body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 .text-fish {
     height: fit-content;
@@ -148,8 +148,8 @@ body {
         left: 0rem;
     }
     #img-fish {
-        width: 32rem;
-        height: 8rem;
+        width: 24rem;
+        height:6rem;
         left: 1rem;
     }
     .line-grey {
