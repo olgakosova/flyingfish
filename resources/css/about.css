@@ -177,7 +177,8 @@ body {
 }
 @media screen and (max-width: 600px) { 
     #img-fish {
-        height:8rem;
-        left: 4rem;
+        width: 18rem;
+        height: 6rem;
+        left: 2rem;
     }
 }
