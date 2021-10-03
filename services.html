@@ -64,25 +64,26 @@
 
     </main>
 
-    <div class="d-flex flex-row justify-content-end">
+    <div class="d-flex flex-row justify-content-center">
         <div class="menu-services col-auto">
-            <button type="button" data-section="fishing-section" class="menu-link" id="menu-fishing">Pesca</button>
-            <button type="button" data-section="adventure-section" class="menu-link" id="menu-adventure">Aventura marítima </button>
+            <button type="button" data-section="fishing-section" class="btn btn-light menu-link" id="menu-fishing">Pesca</button>
+            <button type="button" data-section="adventure-section" class="btn btn-light menu-link" id="menu-adventure">Aventura <br> marítima </button>
         </div>
     </div>
 
-    <div class="container content-section fishing-section fade-in-fwd" id="fishing">
+    <div class="container-fluid content-section fishing-section fade-in-fwd" id="fishing">
+
             <!--Costa-->
-            <article>
+            <div class="blue-bg main-line"></div>
+            <div class="d-flex flex-column flex-lg-row">
+            <article class="service-item">
                 <div id="costa">
-                        <div class="row service-title"> 
+                        <div class="service-title"> 
                                 <h4>Costa</h4>
                                 <p>pesca en poca profundidad y equipos ligeros</p>
                         </div>
 
-                        <div class="line-bottom"></div>
-
-                        <div class="service-text col-lg-8">
+                        <div class="service-text">
                             <ul>
                                 <li><strong>Diferentes modalidades:</strong> <br>rockfishing, light spinning y pesca de fondo con cebo</li>
                                 <li><strong>Variedad de especies: </strong><br>lubina, dorada, sargo, mero, falso abadejo, serviola,
@@ -90,7 +91,7 @@
                                     araña, lagarto, tordo, maragota, golondrina, etc.</li>
                             </ul>
                     
-                            <div class="price col-lg-5">
+                            <div class="price col-lg-10">
                                 <p><strong>½ jornada:</strong> 150 €</p>
                                 <p><strong>jornada completa:</strong>250 €</p>
                             </div>
@@ -100,17 +101,15 @@
         </article>
 
         <!--Mixto-->
-        <article>
+        <article class="service-item">
             <div id="mixto">
                
-                    <div class="row service-title"> 
-                            <h4>MIXTO:</h4>
+                    <div class="service-title"> 
+                            <h4>Mixto:</h4>
                             <p>COSTA + pesca hasta 40 metros de profundidad</p>
                     </div>
 
-                    <div class="line-bottom"></div>
-
-                <div class="service-text col-lg-8">
+                <div class="service-text">
                     <ul>
                         <li><strong>Modalidades:</strong> las del servicio costero + spinning medio, light jigging, micro
                             jigging, pesca de fondo con cebo.</li>
@@ -119,7 +118,7 @@
                             melva), llampuga y serviola.</li>
                     </ul>
             
-                    <div class="price col-lg-5">
+                    <div class="price col-lg-10">
                         <p><strong>½ jornada:</strong> 200 €</p>
                         <p><strong>jornada completa:</strong> 380 €</p>
                     </div>
@@ -130,23 +129,21 @@
         </article>
 
         <!--Curricán gran depredador:-->
-        <article>
-            <div class="big-currican">
-             
-                    <div class="row service-title"> 
+        <article class="service-item">
+            <div id="big-currican">
+                    <div class="service-title"> 
                             <h4>Curricán gran depredador:</h4>
                             <p>rutas y paseos en barco mientras buscamos
                                 depredadores de gran tamaño</p>
                     </div>
-                    <div class="line-bottom"></div>
 
-                    <div class="service-text col-lg-8">
+                    <div class="service-text">
                     <ul>
                         <li><strong>Modalidad:</strong> curricán</li>
                         <li><strong>Especies: </strong>lanjova, palometón, barracuda y dentón.</li>
                     </ul>
                 
-                    <div class="price col-lg-5">
+                    <div class="price col-lg-10">
                         <p><strong>½ jornada:</strong> 150 €</p>
                         <p><strong>jornada completa:</strong> 150 €</p>
                     </div>
@@ -154,24 +151,24 @@
                 <div class="img-services col-9 col-lg-5 img-big-currican"></div>
             </div>
         </article>
-
+    </div>
+    <div class="blue-bg main-line"></div>
         <!--Curricán ligero meses cálidos-->
-        <article>
+        <div class="d-flex flex-column flex-lg-row justify-content-center">
+        <div class="img-fishes img-left"></div>
+        <article class="service-item">
             <div class="currican-light">
                 
                     <div class="row service-title"> 
                         <h4>Curricán ligero meses cálidos</h4>
                     </div>
-
-                    <div class="line-bottom"></div>
-
-                    <div class="service-text col-lg-8">
+                    <div class="service-text">
                         <ul>
                             <li><strong>Modalidad:</strong> curricán ligero con artificiales+ </li>
                             <li><strong>Especies:</strong>atún, bacoreta, melva, bonito, llampuga, jurel, caballa, serviola,
                                 barracuda.</li>
                         </ul>
-                        <div class="price col-lg-5">
+                        <div class="price col-lg-10">
                             <p><strong>½ jornada:</strong> 200 €</p>
                             <p><strong>jornada completa:</strong> 350 €</p>
                         </div>
@@ -181,23 +178,22 @@
         </article>
 
         <!--Big Fish, Big Game:-->
-        <article>
+        <article class="service-item">
             <div class="costa">
                 
-                    <div class="row service-title"> 
+                    <div class="service-title"> 
                             <h4>Big Fish, Big Game:</h4>
                             <p>en busca del trofeo</p>
                     </div>
+                    
 
-                    <div class="line-bottom"></div>
-
-                    <div class="service-text col-lg-8">
+                    <div class="service-text ">
                         <ul>
                             <li><strong>Modalidades:</strong> brumeo, popping, jigging, slow jigging</li>
                             <li><strong>Especies: </strong>atún, bacoreta, serviola, mero, dentón</li>
                         </ul>
                 
-                        <div class="price col-lg-5">
+                        <div class="price col-lg-10">
                             <p><strong>½ jornada:</strong> 300 €</p>
                             <p><strong>jornada completa:</strong> 550 €</p>
                         </div>
@@ -205,15 +201,16 @@
                     <div class="img-services col-12 col-lg-5 img-bigame"></div>
             </div>
         </article>
+        <div class="img-fishes img-right"></div>
+     </div>
     </div>
 
     <!--Servicios nauticos-->
     <div class="content-section container hide-section adventure adventure-section fade-in-fwd" id="adventure">
 
         <div class="service-trip service-title">
-            <h2>Servicios Náuticos</h2>
+            <h4>Servicios Náuticos</h4>
         </div>
-        <div class="line-bottom"></div>
         <div class="service-trip-list">
             <h3>Paseos y rutas en barco, Buceo, Actividades náuticas</h3>
             <h3>Calas, playas, islas, parques naturales</h3>
@@ -251,7 +248,7 @@
             
     
 </div>
-<div class="your-idea col-sm-12 col-lg-8">
+<div class="your-idea d-flex justify-content-center">
     <div class="col-sm-8 col-lg-8">
         <h4>PERSONALIZA TU SALIDA:</h4>
         <p>¿Tienes algún plan, idea o celebración especial?

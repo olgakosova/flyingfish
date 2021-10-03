@@ -1,14 +1,11 @@
 .img-costa {
     background: url("../images/costa.jpg");
-    height: 10rem;
 }
 .img-mixto {
     background: url("../images/mixta.jpg");
-    height: 10rem;
 }
 .img-big-currican {
     background: url("../images/barracuda.png");
-    height: 10rem;
 }
 
 .img-bigame {
@@ -16,7 +13,7 @@
 }
 .lighthouse {
     background: url("../images/lighthouse.png");
-    height: 30rem;
+    height: 25rem;
     margin: 0 4rem 2rem 4rem;
     background-position: center;
     background-repeat: no-repeat !important;
@@ -37,30 +34,43 @@
     background-repeat: no-repeat !important;
     background-size: contain !important;
     position: relative;
-    margin-bottom: 4rem;
-    margin-left: 20rem !important;
+    margin-bottom: 0;
+    margin-left: 0 !important;
 }
 button {
-    font-family: Birch;
-    font-size: 2.5rem;
-    color: #144071;
-    border: rgba(20,64,113,0.5) 1px solid; 
-    border-radius: 2%;
+    padding: 0 .4rem !important;
+    font-size: 1rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    font-weight: 300;
+    line-height: 1;
+    color: #144071 !important;
+   background-color: rgb(249, 246, 246) !important;
+   font-family: trade-gothic-next, sans-serif;
+}
+#menu-fishing {
+    height: 100%;
 }
 
 button:hover, button:active, button:focus, button:visited {
-    background-color:  #144071 !important;
-    color: white !important;
+    border: 1px solid #144071 !important;
+   box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
 }
-
-
 .menu-services {
-    transform: rotate(90deg);
-    position: relative;
-    left: 3.2rem;
-    top: 10rem;
-    z-index: 100;
+    border-top: 1px solid lightgrey !important;
+    border-bottom: 1px solid lightgrey !important;
+    margin-bottom: 2rem;
+    z-index: 5;
+    background-color: rgb(249, 246, 246);
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
 }
+#fishing {
+    padding:0 !important;
+}
+
 .service-title,  .service-text {
     margin-left: 2rem;
 }
@@ -72,12 +82,22 @@ button:hover, button:active, button:focus, button:visited {
     margin-top: 0;
 }
 .service-title h4{
+    padding-top: 1rem;
     padding-right: 1rem;
-    padding-left: 1rem;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
-.service-title p{
-    padding-top: 1.3rem;
+.img-fishes {
+    background: url("../images/costa.jpg");
+    width: 15%;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+.img-left {
+    background: url("../images/img-left.png");
+    background-position: left;
+}
+.img-right {
+    background: url("../images/img-right.png");
 }
 .service-text ul {
     font-family: trade-gothic-next, sans-serif;
@@ -99,9 +119,9 @@ strong {
     background-color: white;
     margin-right: .4rem;
 }
-.content-section {
+/*.content-section {
    border-right: rgba(20,64,113,0.5) 1px solid; 
-}
+}*/
 .content-section h2 {
     color: #144071;
 }
@@ -113,9 +133,8 @@ strong {
     margin-top: 3rem;
 }
 .your-idea {
-    margin-top: 3rem;
-    margin-left: 9rem;
     background-color: #cce0f7;
+    margin-top: 4rem;
     padding: 2rem;
     text-align: center;
     font-size: larger;
@@ -131,6 +150,18 @@ body{
 .hide-section {
     display: none;
 }
+.main-line {
+    height: 2rem;
+    width: 100%;
+    border-top: 1px solid #144071;
+}
+.service-item {
+  /*  border-right: 1px solid rgb(186, 185, 185);*/
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem;
+}
+
 
 .fade-in-fwd {
 	-webkit-animation: fade-in-fwd 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both .2s;
@@ -188,6 +219,24 @@ body{
   }
 }
 @media only screen and (max-width: 991px) {
+    .menu-services {
+        margin-bottom: 1rem;
+        position: relative;
+        top: 5rem;
+        z-index: 5;
+        background-color: rgb(244, 242, 242);
+        padding: 0 !important;
+        
+    }
+    #adventure{
+        margin-top: 7rem;
+    }
+    .service-item {
+        border-bottom: 1px solid lightgrey;
+    }
+    .main-line {
+        display: none;
+    }
     .img-services {
         margin-left: 0 !important;
         margin-bottom: 7rem;
